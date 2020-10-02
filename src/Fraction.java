@@ -15,4 +15,7 @@ public class Fraction {
 		return nomer;
 	}
 	
+public	String toString(Fraction x) {
+	return x.nomer + "/" + x.denom;
+}
 }

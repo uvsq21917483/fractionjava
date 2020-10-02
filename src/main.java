@@ -5,6 +5,8 @@ public class main {
 		System.out.println("salut");
 		Fraction x = new Fraction(12,15);
 		System.out.println(x.getnom());
+		
+		System.out.println(x.toString(x));
 	}
 
 }
